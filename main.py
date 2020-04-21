@@ -35,12 +35,16 @@ masa_listek_mietowy = 0.2
 cena_listek_mietowy = 20.00
 listek_mietowy = "Listek mietowy, %.2f kg, %.2f zł" % (masa_listek_mietowy, cena_listek_mietowy)
 
-suma = cena_roquefort + cena_stilton + cena_brie + cena_gouda + cena_edam + cena_parmezan + cena_mozzarella + cena_hit + cena_listek_mietowy
+masa_salami = 0.40
+cena_salami = 16.00
+salami = "Hit, %.2f kg, %.2f zł" % (masa_salami, cena_salami)
+
+suma = cena_roquefort + cena_stilton + cena_brie + cena_gouda + cena_edam + cena_parmezan + cena_mozzarella + cena_hit + cena_listek_mietowy + cena_salami
 suma_calkowita = "Suma zł: %.2f" % (suma)
 
-raport = "Raport z zakupów:\n %s \n %s \n %s \n %s \n %s \n %s \n %s \n %s \n %s \n %s" % (roquefort, stilton, brie, gouda, edam, parmezan, mozzarella, hit, listek_mietowy, suma_calkowita )
+raport = "Raport z zakupów:\n %s \n %s \n %s \n %s \n %s \n %s \n %s \n %s \n %s \n %s \n %s" % (roquefort, stilton, brie, gouda, edam, parmezan, mozzarella, hit, listek_mietowy, salami, suma_calkowita )
 
 print(raport)
 
-print("'Martwa papuga' to najlepszy skecz gruoy Monty Pythona")
+
 
