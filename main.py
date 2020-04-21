@@ -42,4 +42,5 @@ raport = "Raport z zakupów:\n %s \n %s \n %s \n %s \n %s \n %s \n %s \n %s \n %
 
 print(raport)
 
-print("'Hiszpańska inkwizycja' to nalepszy skecz grupy Monty Pythona")
+print("'Martwa papuga' to najlepszy skecz gruoy Monty Pythona")
+
