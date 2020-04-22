@@ -1,12 +1,5 @@
 
 
-masa_brie = 1
-cena_brie = 9.30
-brie = "Brie, %.2f kg, %.2f zł" % (masa_brie, cena_brie)
-
-masa_gouda = 1
-cena_gouda = 8.55
-gouda = "Gouda, %.2f kg, %.2f zł" % (masa_brie, cena_brie)
 
 masa_edam = 1
 cena_edam = 11.00
@@ -26,10 +19,10 @@ hit = "Hit, %.2f kg, %.2f zł" % (masa_hit, cena_hit)
 
 
 
-suma = cena_brie + cena_gouda + cena_edam + cena_parmezan + cena_mozzarella + cena_hit
+suma = cena_edam + cena_parmezan + cena_mozzarella + cena_hit
 suma_calkowita = "Suma zł: %.2f" % (suma)
 
-raport = "Raport z zakupów:\n %s \n %s \n %s \n %s \n %s \n %s \n %s " % (brie, gouda, edam, parmezan, mozzarella, hit, suma_calkowita )
+raport = "Raport z zakupów:\n %s \n %s \n %s \n %s \n %s " % (edam, parmezan, mozzarella, hit, suma_calkowita )
 
 print(raport)
 
